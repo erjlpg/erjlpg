@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript">
+
+var imgNum = 1; 
+function change(){
+var image= document.getElementById('art');
+if(imgNum<6){
+      imgNum++;
+      
+}else{
+ImgNum=1;
+}
+image.src = imgNum+'.jpeg';
+      }
+
+</script>
+</head>
+<body>
+
+<img src="1.jpeg" id="art" onclick="change();">
+
+
+</body>
+</html>
